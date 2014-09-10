@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<projects> 
+  <project name="lqbweb" display_name="零钱宝" template_path="E:\myProject\projectgeneratorweb\src\main\webapp\template\LQBWEB" output_path="E:\myProject\output\LQBWEB" driverName="com.mysql.jdbc.Driver" user="lqbweb" password="lqbweb" url="jdbc:mysql://114.80.208.241:44306/smartstreet?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true"> 
+    <templates> 
+      <template name="ConstantsDbTemplate.ftl" file_name="ConstantDb.java" file_path="constants" desc="" status="1"/>  
+      <template name="ConstantsTableNameTemplate.ftl" file_name="ConstantsTableName.java" file_path="constants" desc="" status="1"/>  
+      <template name="ControllerTemplate.ftl" file_name="#className#Controller.java" file_path="controller" desc="" status="1"/>  
+      <template name="ModelTemplate.ftl" file_name="#className#.java" file_path="model" desc="" status="1"/>  
+      <template name="MapperTemplate.ftl" file_name="#className#.xml" file_path="mapper" desc="" status="1"/>  
+      <template name="ServiceImplTemplate.ftl" file_name="#className#ServiceImpl.java" file_path="serviceImpl" desc="" status="1"/>  
+      <template name="ServiceTemplate.ftl" file_name="I#className#Service.java" file_path="service" desc="" status="1"/>  
+      <template name="DaoTemplate.ftl" file_name="#className#Dao.java" file_path="dao" desc="" status="1"/>  
+      <template name="ConstantsMessageTemplate.ftl" file_name="ConstantsMessage.java" file_path="constants" desc="" status="1"/> 
+    </templates>  
+    <tables> 
+      <table name="loginlog" status="1" prefix="0"/>
+      <table name="payrecord" status="1" prefix="0"/>
+      <table name="receiveaddress" status="1" prefix="0"/>
+      <table name="smsrecord" status="1" prefix="0"/>
+      <table name="taskinfo" status="1" prefix="0"/>
+      <table name="userinfo" status="1" prefix="0"/>
+    </tables> 
+  </project> 
+</projects>

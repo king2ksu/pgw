@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<error_codes>
+    <error_code code="0001" desc="未找到文件或路径！"/>
+    <error_code code="0002" desc="添加项目信息失败！"/>
+    <error_code code="0003" desc="删除项目信息失败！"/>
+    <error_code code="0004" desc="修改项目信息失败！"/>
+    <error_code code="0005" desc="保存模板列表失败！"/>
+    <error_code code="0006" desc="保存数据表列表失败！"/>
+</error_codes>

@@ -1,0 +1,7 @@
+[{
+    "statusValue":1,
+    "statusName":"启用"
+},{
+    "statusValue":0,
+    "statusName":"停用"
+}]
